@@ -17,7 +17,7 @@ carpentry: 'lc'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Ny udgave af text mining på engelsk'
+title: 'Text analysis with R'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2024-05-01'
@@ -33,7 +33,7 @@ life_cycle: 'pre-alpha'
 license: 'CC BY-NC-SA 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/KUBDatalab/R-textmining_new'
+source: 'https://github.com/KUBDatalab/R-text-analysis'
 
 # Default branch of your lesson
 branch: 'main'
