@@ -105,10 +105,20 @@ library(textdata)
 
 
 
-```{r get_sentiment_afinn}
+```{r get_sentiment_afinn, eval = FALSE}
 afinn <- get_sentiments("afinn")
 ```
 
+```{r indlaes_afinn, echo = FALSE, message = FALSE}
+afinn <- read_csv("data/AFINN.CSV")
+```
+
+:::: instructor
+Bemærk at vi ikke på github kan downloade afinn. Derfor 
+har vi downloaded afinn datasættet til en csv-fil pr 21. november 2025.
+Med andre ord er der risiko for at siden kører med et uopdateret
+datasæt.
+::::
 
 ```{r inner_join_afinn}
 articles_afinn <- articles_filtered |> 
