@@ -97,6 +97,7 @@ recommend if you have any problems installing R and Positron on your personal co
 
 * Open RStudio, and click on "Help" > "Check for updates". If a new version is
 	available, quit RStudio, and download the latest version for RStudio.
+* Or, open Positron, and click on "Help" > "Installing update".
 * To check the version of R you are using, start RStudio and the first thing
   that appears on the terminal indicates the version of R you are running. Alternatively, you can type `sessionInfo()`, which will also display which version of R you are running. Go on
   the [CRAN website](https://cran.r-project.org/bin/macosx/){target="_blank"} and check
@@ -111,11 +112,10 @@ recommend if you have any problems installing R and Positron on your personal co
 * Double click on the downloaded file to install R.
 * It is also a good idea to install [XQuartz](https://www.xquartz.org/){target="_blank"} (needed
   by some packages).
-* Go to the [RStudio download page](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}.
-* Under *Installers* select **RStudio x.yy.zzz - Mac OS X 10.6+ (64-bit)**
-  (where x, y, and z represent version numbers).
-* Double click the file to install RStudio.
-* Once it's installed, open RStudio to make sure it works and you don't get any
+* Go to the [Positron download page](https://positron.posit.co/download.html){target="_blank"}
+* Accept the license agreement, and download the appropriate MacOs installer, probably MacOS 11.0+ (universal)
+* Double click the file to install Positron.
+* Once it's installed, open Positron to make sure it works and you don't get any
   error messages.
 
 :::::::::::::::::::::::::
@@ -132,12 +132,12 @@ recommend if you have any problems installing R and Positron on your personal co
   `sudo apt-get install r-base`, and for Fedora `sudo yum install R`), but we
   don't recommend this approach as the versions provided by this approach are
   usually out of date. In any case, make sure you have at least R 3.2.
-* Go to the
-  [RStudio download page](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}.
+* Go to the [Positron download page](https://positron.posit.co/download.html){target="_blank"}
+* Accept the license agreement.
 * Under *Installers* select the version that matches your distribution, and
   install it with your preferred method (e.g., with Debian/Ubuntu `sudo dpkg -i
-  rstudio-x.yy.zzz-amd64.deb` at the terminal).
-* Once it's installed, open RStudio to make sure it works and you don't get any
+  Positron-2025.11.0-234-arm64.deb	` at the terminal).
+* Once it's installed, open Positron to make sure it works and you don't get any
   error messages.
 
 :::::::::::::::::::::::::
