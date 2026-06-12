@@ -17,7 +17,7 @@ exercises: 0
 library(tidyverse)
 library(tidytext)
 
-articles <- read_csv("data/articles.csv", na = c("NA", "NULL", ""))
+articles <- read_csv("data/guardianArticles.csv", na = c("NA", "NULL", ""))
 ```
 
 ## Tokenisation
